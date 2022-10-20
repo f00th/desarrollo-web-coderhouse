@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Registrarse</title>
+   <link rel="stylesheet" href="../estilos/css/estilo.css">
+</head>
+
+<body>
+   <nav class="nav">
+      <img src="../img/logo.png" alt="Logo" href="./index.html" class="nav__logo">
+      <h1 class="nav__title">Gimnasio</h1>
+      <ul class="nav__list">
+         <li><a href="../index.html" class="btn">Inicio</a></li>
+         <li><a href="#" class="btn">Registrarse</a></li>
+         <li><a href="./planes.html" class="btn">Planes</a></li>
+         <li><a href="./sobre_nosotros.html" class="btn">Sobre nosotros</a></li>
+         <li><a href="./contacto.html" class="btn">Contacto</a></li>
+      </ul>
+   </nav>
+
+   <main>
+      <div class="form">
+         <form action="" method="GET" enctype="text/plain">
+            <fieldset class="form__box">
+               <div>
+                  <label for="name">Nombre y Apellido</label>
+                  <input type="text" name="name" id="name" required placeholder="Introduzca su nombre">
+               </div>
+               <div>
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" required>
+               </div>
+               <div>
+                  <label for="age">Edad</label>
+                  <input type="number" name="age" id="age" min="1" max="150">
+               </div>
+               <div>
+                  <label for="date">Fecha de Nacimiento</label>
+                  <input type="date" name="date" id="date" min="1901-01-01" max="2022-01-01">
+               </div>
+               <div>
+                  <strong>Genero</strong>
+                  <div>
+                     <label for="male">Masculino</label>
+                     <input type="radio" name="gender" id="male" value="male">
+                  </div>
+                  <div>
+                     <label for="female">Femenino</label>
+                     <input type="radio" name="gender" id="female" value="female">
+                  </div>
+               </div>
+               <div>
+                  <label for="phone">Teléfono</label>
+                  <input type="tel" name="phone" id="phone">
+               </div>
+               <div>
+                  <label>Password</label>
+                  <input type="password" name="password" id="password" required>
+               </div>
+            </fieldset>
+            <div class="form__control">
+               <input type="reset" value="Reiniciar Formulario"></input>
+               <input type="submit" value="Enviar Formulario"></input>
+            </div>
+         </form>
+      </div>
+   </main>
+
+      <footer class="footernav">
+         <ul class="footernav__list">
+            <li><a href="../index.html" class="btn__footer">Inicio</a></li>
+            <li><a href="#" class="btn__footer">Registrarse</a></li>
+            <li><a href="./planes.html" class="btn__footer">Planes</a></li>
+            <li><a href="./sobre_nosotros.html" class="btn__footer">Sobre nosotros</a></li>
+            <li><a href="./contacto.html" class="btn__footer">Contacto</a></li>
+         </ul>
+      </footer>
+</body>
+</html>
