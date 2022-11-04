@@ -1,0 +1,17 @@
+.contact {
+    display: flex;
+    background-color:aquamarine;
+    height: 12rem;
+    position: relative;
+    justify-content: center;
+
+    .contact__card {
+        margin-top: 1.5rem;
+        width: 40vw;
+        background-color: rgb(152, 203, 255);
+        flex-direction: column;
+        border: solid black .1rem;
+        text-align: center;
+        position: absolute;
+    }
+}

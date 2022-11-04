@@ -1,0 +1,58 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    height: 13rem;
+    align-items: center;
+    background-color: grey;
+
+    .nav__logo {
+        display: inline-block;
+        width: 5rem;
+        padding: .3rem;
+        border-radius: 3rem;
+        margin: .3rem;
+        background-color: rgb(194, 61, 61);
+        animation: appear 1s;
+    }
+
+    .nav__title {
+        padding: .6rem;
+        border-radius: 5rem;
+        font-size: 2rem;
+        color:rgb(204, 204, 204);
+        background-color: rgb(65, 65, 65);
+        border: solid black .2rem;
+    }
+
+    .nav__list {
+        margin-top: 1rem;
+        
+        li {
+            display: inline;
+        }    
+    }
+}
+
+.btn {
+    color: rgb(231, 192, 192);
+    background-color:rgb(107, 41, 41);
+    padding: .6rem;
+    margin: .2rem;
+    border-radius: 2rem;
+    font-weight: bolder;
+    font-size: .9rem;
+}
+
+.btn:hover {
+    color: rgb(107, 41, 41);;
+    background-color: aquamarine;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

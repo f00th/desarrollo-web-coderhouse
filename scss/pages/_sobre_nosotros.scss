@@ -1,0 +1,32 @@
+.intro__about {
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    align-items: center;
+    background-color: rgb(97, 22, 22);
+    border-bottom: solid black .2rem;
+    border-top: solid black .1rem;
+    padding: 1rem;
+
+    .intro__box {
+        width: 60%;
+        align-self: center;
+    }
+    
+    .intro__title {
+        text-align: center;
+        width: auto;
+        margin-top: .4rem;
+        padding: .4rem;
+        background-color: rgb(97, 97, 97);
+    }
+
+    .intro__p {
+        text-align: center;
+        width: auto;
+        padding: 1rem;
+        background-color: rgb(97, 97, 97);
+    }
+}
+
+
