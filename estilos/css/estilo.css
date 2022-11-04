@@ -447,7 +447,7 @@
   font-size: 1rem;
 }
 
-.intro__about {
+.about {
   display: flex;
   flex-direction: column;
   height: 25%;
@@ -457,18 +457,18 @@
   border-top: solid black 0.1rem;
   padding: 1rem;
 }
-.intro__about .intro__box {
+.about .about__box {
   width: 60%;
   align-self: center;
 }
-.intro__about .intro__title {
+.about .about__title {
   text-align: center;
   width: auto;
   margin-top: 0.4rem;
   padding: 0.4rem;
   background-color: rgb(97, 97, 97);
 }
-.intro__about .intro__p {
+.about .about__p {
   text-align: center;
   width: auto;
   padding: 1rem;

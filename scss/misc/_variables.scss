@@ -7,3 +7,14 @@ $tertiary: rgb(112, 128, 144);
 $planheader: rgb(0, 247, 255);
 
 $planp: rgb(100, 148, 237);
+
+@mixin text {
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    align-items: center;
+    background-color: rgb(97, 22, 22);
+    border-bottom: solid black .2rem;
+    border-top: solid black .1rem;
+    padding: 1rem;
+}
